@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/inventory/1/purchaseRecord"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "json/inventory-response-after-post.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

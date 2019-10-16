@@ -1,0 +1,9 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/inventory/2"
+  },
+  "response": {
+    "status": 404
+  }
+}
