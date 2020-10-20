@@ -56,7 +56,7 @@ class ProductServiceTest {
     @DisplayName("Test findById Not Found")
     void testFindByIdNotFound() {
         // Setup our mock
-        Product mockProduct = new Product(1, "Product Name", 10, 1);
+        // Product mockProduct = new Product(1, "Product Name", 10, 1);
         doReturn(Optional.empty()).when(repository).findById(1);
 
         // Execute the service call
